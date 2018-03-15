@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/icon.png">
+
+    <title>Dj Kriss</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fontello.css" rel="stylesheet">
+   
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	<script src="js/jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jQuery(function($)
+		{
+			
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#about'), 500); });
+			$('#link2').click(function() { $.scrollTo($('#contact'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#gal'), 500); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		/*
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		
+		);
+	*/
+	
+	</script>
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+	
+	<script src="js/mdb.min.js"></script>
+	
+	<script>
+		new WOW().init();
+			$( ".wow" ).addClass( "fadeInLeft" );
+		
+	
+	</script>
+	
+  </head>
+
+  <body>
+	<div class="containter-fluid">
+  
+	<div class="intro">
+	
+		<div class="nav">
+		
+			<div id="logo"><a class="scrollup" href="#" style="font-weight:bold; font-family: 'Play', sans-serif;">Dj Kriss</a></div>
+			
+			<div style="float:right; margin-left:800px;">
+				<div  class="m" ><a class="scrollup" href="#">Strona Główna</a></div>
+				
+				<div class="m"><a id="link1" href="#">O mnie</a></div>
+				
+				<div class="m"><a id="link3" href="#">Galeria</a></div>
+				
+				<div class="m"><a  id="link2" href="#">Kontakt</a></div>
+				
+				<div style="clear:both;"> </div>
+			</div>
+					 <div style="clear:both;"> </div>
+		</div>
+	
+	
+	
+		<img class="animated fadeInDown" src="img/zd2.png" />
+		
+			<p class="animated fadeInUp" style="font-family: 'Play', sans-serif; ">Organizujesz imprezę i potrzebujesz Dj'a? Posiadam własne nagłośnienie i <br/>
+					oświetlenie najwyższej jakości, konsolę Dj'ską oraz umiejętności aby prowadzic <br/>
+					każdą imprezę! Dzwoń lub pisz, a na pewno się dogadamy. <br/>
+			</p>
+					
+		<img class="animated fadeInUp" src="img/zd.png" width="10%" height="10%"/>
+	
+			
+	
+	
+	</div>
+
+    <div id="about">
+
+      <div id="box">
+        
+			<div class=" wow fadeInLeft " data-wow-delay="0.2s" id="cl" >
+				  <h2>O mnie</h2>
+				  <p>Cześć. Nazywam się Krystian i jestem z Malborka ( Województwo Pomorskie ). <br/>Mam 20 lat, jestem pełen energii i zamiłowania do muzyki. Chcesz posłuchać co gram<br/> i jak to robię? Obserwuj mojego fanpage'a lub konto na Mixcloud (Linki w zakładce kontakt).<br/>
+						<br/>
+
+					Organizujesz imprezę i potrzebujesz Dj'a? Posiadam własne nagłośnienie i <br/>oświetlenie najwyższej jakości, konsolę Dj'ską oraz umiejętności aby prowadzic <br/>każdą imprezę! Dzwoń lub pisz, a na pewno się dogadamy.
+								<br/><br/>
+						<strong>Prowadzę :</strong> <br/>
+						- jubileusze, urodziny, rocznice <br/>
+						- 18-stki <br/>
+						- Andrzejki<br/>
+						- Bale karnawałowe<br/>
+						- Imprezy firmowe<br/>
+						- Imprezy tematyczne w zadanym przez Klienta stylu<br/>
+						- Dancingi<br/>
+						- Półmetki/Ćwiartki<br/>
+						- Festyny<br/>
+						- Imprezy plenerowe<br/>
+						- Granie w Klubie
+						
+							<br/><br/>
+						<strong>Sprzęt, który posiadam :</strong><br/>
+						-Pioneer DDJ-SX2 ( konsola )<br/>
+						-Pioneer HDJ-1500K (słuchawki )<br/>
+						-Alto TS112A ( głośniki )<br/>
+						-Nowoczesne i profesjonalne oświetlenie 4xPar Led, 2 lasery, Revo 4 IR.</p>
+			</div>
+		
+			<div class="wow fadeInRight"  data-wow-delay="0.2s" id="cr"   >
+				<img  style="box-shadow:0 0 6px black; margin-left:10px; margin-top:180px;" src="img/mod.jpg" width="90%" height="90%" />
+			</div>
+			
+			<div style="clear:both;"></div>
+      </div>
+
+	  
+	</div>
+	  <div style="clear:both;"></div>
+	  
+	  <div id="licz" >
+			
+			<section class="timer">
+ 
+					  <div class="section-title">
+						  <div class="container">
+							  <h2 style="margin-top: 110px;" class="section-heading" id="countStart">W liczbach:</h2>
+							  <div class="kreska2"></div>
+							  
+							</div>
+					  </div>
+					 
+					  <div class="container wow fadeIn" data-wow-delay="0.1s">
+							
+						 <div class="single-col">
+							<h3><span class="count" data-from="0" data-to="5200" data-speed="2000"></h3>
+							<h4>GODZIN PRACY</h4>
+						 </div>
+					 
+						 <div class="single-col">
+							<h3><span class="count" data-from="0" data-to="153" data-speed="2000"></h3>
+							<h4>ZREALIZOWANYCH PROJEKTÓW</h4>
+						 </div>
+					 
+						 <div class="single-col">
+							<h3><span class="count" data-from="0" data-to="89" data-speed="2000"></h3>
+							<h4>ZADOWOLONYCH KLIENTÓW</h4>
+						 </div>
+					 
+						 <div class="single-col">
+							<h3><span class="count" data-from="0" data-to="5" data-speed="2000"></h3>
+							<h4>LAT PRACY</h4>
+						 </div>
+						
+			   </div>
+			 
+			</section>
+			
+	  
+	  
+	  
+	  </div>
+	  
+	  
+	  <div id="gal" >
+	  
+		<h1>Galeria</h1>
+		<div class="kreska1"></div>
+	  
+		  <div class="view hm-zoom wow fadeInLeft"  data-wow-delay="0.2s" style=" float: left; margin: 50px;">
+				<img src="img/1.jpg" height="400px" width="600px"  style="box-shadow:0 0 6px black; float: left;" class="img " alt="">
+				
+				
+				<div class="mask flex-center"  >
+				</div>
+			</div>
+			
+			 <div class="view hm-zoom wow fadeInRight"  data-wow-delay="0.2s" style=" float: left; margin: 50px;">
+			<img src="img/2.jpg" height="400px" width="600px"  style="box-shadow:0 0 6px black;  float: left;" class="img " alt="">
+			<div class="mask flex-center">
+				</div>
+			</div>
+			
+			<div style="clear: both;"></div>
+			
+			 <div class="view hm-zoom wow fadeInLeft"   data-wow-delay="0.2s" style="float: left; margin: 60px;">
+			<img src="img/3.jpg" height="400px" width="580px"  style="box-shadow:0 0 6px black; " class="img " alt="">
+	  
+			<div class="mask flex-center">
+				</div>
+			</div>
+			
+			 <div class="view hm-zoom wow fadeInRight"   data-wow-delay="0.2s" style="float: left; margin: 50px; ">
+			<img src="img/4.jpg" height="400px" width="600px"  style="box-shadow:0 0 6px black; " class="img " alt="">
+	  
+			<div class="mask flex-center">
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			<iframe style="margin-top:35px;"  class="wow fadeInUp"   data-wow-delay="0.2s"width="853" height="480" src="https://www.youtube.com/embed/GRyrJ7VCPHk" frameborder="0" allowfullscreen></iframe>
+			
+			
+			
+	  </div>
+    
+	
+	 <div id="contact" >
+		<div id="box">
+				
+			<div id="cl" class="wow fadeInLeft" data-wow-delay="0.6s">
+			<div id="yt">
+			
+			<a href="https://www.youtube.com/channel/UCmITAhT5J2wEY2gnKp9t69A"  class="tilelink" target="blank" ><i class="icon-youtube-1"></i></a>	
+			
+			</div>
+			<div id="fb">
+			<a href="https://www.facebook.com/officialDJKriss/"  class="tilelink" target="blank" ><i class="icon-facebook-squared"></i></a>	
+			
+			</div>
+					<div id="insta">
+					<a href="https://www.instagram.com/sk_kriss/"  class="tilelink" target="blank" ><i class="icon-instagram-filled"></i></a>	
+					
+					</div>
+					<div style="clear:both;"></div>
+					<div id="snap"><i class="icon-snapchat-ghost"></i><br/>SK_KRISS</div>
+					<div id="sound">
+					<a href="https://www.mixcloud.com/krystian-wos/"  class="tilelink" target="blank" ><i class="icon-soundcloud"></i></a>	
+					</div>
+				
+				</div>
+				<div class="wow fadeInRight" data-wow-delay="0.2s" id="cr">
+				<h1 style="font-size:50px">Kontakt</h1>
+						<br/>
+					<i class="icon-mail-alt"></i>   djkriss.malbork@gmail.com  <br/> <br/>
+					<i class="icon-phone"></i>   500 031 863 <br/><br/>
+					<i class="icon-location"></i> Malbork/Gdańsk
+			
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+	  </div>
+	  
+      <footer style="clear:both; padding-top:20px;">
+        <p style="text-align:center;">Wykonał <strong>Łukasz Woś</strong> &copy; Wszelkie prawa zastrzeżone</p>
+      </footer>
+
+	</div>
+
+
+<!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- JS DO FADEIN-->
+    <script>
+        new WOW().init();
+    </script>
+	
+<!-- JS DO ODLICZANIA LICZB -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jss.js"></script>
+<script>
+        $(document).ready(function () {
+            function showStatistics() {
+                function isScrolledIntoView(elem) {
+                    var $elem = $(elem);
+                    var $window = $(window);
+                    var docViewTop = $window.scrollTop();
+                    var docViewBottom = docViewTop + $window.height();
+                    var elemTop = $elem.offset().top;
+                    var elemBottom = elemTop + $elem.height();
+                    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+                }
+                $(document).scroll(function scrollHandler() {
+                    if (isScrolledIntoView("#countStart") == true) {
+                        $(document).off('scroll', scrollHandler);
+                        $('.count').countTo();
+                    } else {
+                        return 0;
+                    }
+                })
+            }
+            showStatistics();
+        });
+    </script>
+
+
+
+  </body>
+</html>

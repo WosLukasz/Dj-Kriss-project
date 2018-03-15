@@ -1,0 +1,297 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  
+}
+
+.nav
+{
+	width: 100%;
+	background: transparent;
+	-webkit-box-shadow: 0px 10px 34px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 34px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 34px 0px rgba(0,0,0,0.75);
+	height: 50px;
+	top: 0;
+	
+	
+}
+#logo
+{
+	font-size:20px;
+	padding: 5px;
+	margin-left:120px;
+	margin-top: 5px;
+	float: left;
+	
+}
+.m
+{
+	float: left ;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 5px;
+	margin-top: 8px;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	
+
+}
+a:hover
+{
+	color: #404040;
+	text-decoration: none;
+	
+
+}
+.intro
+{
+	text-align: center;
+	color: white;
+	background: url("../img/padded.png") repeat fixed 100%; /* Background pattern from Subtle Patterns */
+	min-height: 800px !important; 
+	max-height: 800px !important; 
+	
+}
+#about
+{
+	width:100%;
+	float:left;
+	min-height:480px;
+	padding:40px;
+	box-shadow:0 0 6px white;
+	
+	
+}
+#contact
+{
+	width:100%;
+	float:left;
+	min-height:480px;
+	background-color:#404040;
+	padding:50px;
+	color:white;
+	
+	background: url("../img/stardust.png") repeat fixed 100%; /* Background pattern from Subtle Patterns */
+	
+	
+}
+#box
+{
+	/*width:1150px;*/
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	
+	
+}
+#cl
+{
+	width:50%;
+	float:left;
+	text-align:justify;
+	padding:10px;
+	
+}
+#cr
+{
+	width:50%;
+	float:left;
+	text-align:justify;
+	padding:10px;
+	font-size:20px;
+	
+}
+#yt
+{
+	background-color:#d94348;
+	width:105px;
+	height:142px;
+	float:left;
+	margin:10px;
+	
+	
+}
+#yt:hover
+{
+	background-color:#c83237;
+	cursor:pointer;
+}
+#fb
+{
+	background-color:#4668b3;
+	width:105px;
+	height:142px;
+	float:left;
+	margin:10px;
+	
+}
+#fb:hover
+{
+	background-color:#3557a2;
+	cursor:pointer;
+}
+#insta
+{
+	background-color:#111111;
+	width:105px;
+	height:142px;
+	float:left;
+	margin:10px;
+}
+#insta:hover
+{
+	background-color:#000000;
+	cursor:pointer;
+}
+#snap
+{
+	background-color:#ddda00;
+	width:105px;
+	height:142px;
+	float:left;
+	margin:10px;
+	text-align:center;
+	font-family: 'Play', sans-serif;
+}
+#snap:hover
+{
+	background-color:#ddda00;
+}
+#sound
+{
+	
+	background-color:#33475F;
+	width:230px;
+	height:142px;
+	float:left;
+	margin:10px;
+}
+#sound:hover
+{
+	background-color:#22364e;
+	cursor:pointer;
+}
+a.tilelink
+{
+	color:#ffffff;
+	text-decoration: none;
+	display:block;
+	width:105px;
+	height:142px;
+}
+.sticky
+{
+	width:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background-color: black;
+}
+
+#licz
+{
+	width: 100%;
+	background: url("../img/mochaGrunge.png") repeat fixed 100%;  /* Background pattern from Subtle Patterns */
+	min-height: 400px;
+	
+	
+}
+#gal
+{
+	width: 100%;
+	padding: 50px;
+	margin:-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	
+	
+}
+.kreska1
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #404040;
+	width: 100px;
+	
+}
+
+.kreska2
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid white;
+	width: 150px;
+	
+}
+
+.timer {
+	min-height: 280px;
+	width: 100%;
+	background: url('background.jpg') no-repeat;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	
+}
+ 
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	clear: both;
+	
+}
+ 
+.section-title h2 {
+	color: white;
+	font-size: 38px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	padding-top: 30px;
+	
+	
+}
+ 
+.single-col {
+	width: 25%;
+	float: left;
+}
+ 
+.single-col h3 {
+	font-size: 58px;
+	color: #fff;
+	font-weight: 100;
+	margin-top: 70px;
+}
+ 
+.single-col h4 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 100;
+}
+ 
+@media screen and (max-width: 850px) {
+	.single-col {
+		width: 50%;
+		float: left;
+	}
+ 
+	.single-col h3 {
+		margin-top: 70px;
+	}
+}
+ 
+@media screen and (max-width: 400px) {
+	.single-col {
+		width: 100%;
+		float: left;
+	}
+}
